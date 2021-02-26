@@ -1,7 +1,7 @@
 from django.shortcuts import render
 
 
-def runoob(request):
+def page(request):
     context = {}
     context['hello'] = 'Hello World!'
     context['list'] = ['甲乙', '丙丁']
