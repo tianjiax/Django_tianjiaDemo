@@ -10,6 +10,7 @@
 {% load my_tags %}
 {% load static %}
 <body>
+{% include "header.html" %}
     <h1>{{ hello|truncatewords:"1" }}</h1>
     <ul>
     {% for athlete in list reversed%}
