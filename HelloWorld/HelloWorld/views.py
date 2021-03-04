@@ -11,3 +11,6 @@ def page(request):
 def articles(request,id):
     context = {}
     return render(request, 'index.html', context)
+def detail(request,uid,tid):
+    context = {}
+    return render(request, 'index.html', context)
