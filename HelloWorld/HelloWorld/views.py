@@ -8,3 +8,6 @@ def page(request):
     views_dict = {"name": "教程", "age": 18}
     context['views_dict'] = views_dict
     return render(request, 'index.html', context)
+def articles(request,id):
+    context = {}
+    return render(request, 'index.html', context)
